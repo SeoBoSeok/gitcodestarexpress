@@ -6,5 +6,7 @@ publicDir = path.join(__dirname,'public');
 
 app.use(express.static(publicDir))
 
+
+
 app.listen(port);
 module.exports = app;
